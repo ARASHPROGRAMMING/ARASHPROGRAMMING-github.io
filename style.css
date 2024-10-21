@@ -1,10 +1,10 @@
+body {
+  background: #0c1301;
+}
+
 @font-face {
   font-family: iransans;
   src: url(IRANSansXFaNum-Black.woff);
-}
-
-body {
-  background: #0c1301;
 }
 
 * {
@@ -19,8 +19,6 @@ body {
 
 .container {
   max-width: 90%;
-  /* height: 150px;
-  background: red; */
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -51,6 +49,7 @@ pre {
   color: #ffab5c;
   margin-top: 20rem;
   font-size: 1.2rem;
+  line-height: 2.8rem;
 }
 
 .background-section {
@@ -62,6 +61,8 @@ pre {
   width: 100%;
   position: relative;
   margin-top: 15px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px inset rgba(255, 255, 255, 0.303);
 }
 
 .overlay {
@@ -72,4 +73,26 @@ pre {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
+}
+
+.anout {
+  margin-top: 3rem;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+p {
+  color: #ffab5c;
+  margin-top: 2rem;
+  text-align: center;
+  line-height: 2.8rem;
+}
+
+b {
+  color: whitesmoke;
+  border: 5px solid whitesmoke;
+  border-radius: 5px;
+  padding: 5px;
 }
