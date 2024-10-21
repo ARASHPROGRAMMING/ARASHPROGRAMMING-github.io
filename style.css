@@ -1,3 +1,8 @@
+@font-face {
+    font-family: iransans;
+    src: url(IRANSansXFaNum-Black.woff);
+}
+
 body {
     background: #0C1301;
 }
@@ -9,6 +14,7 @@ body {
   direction: rtl;
   text-decoration: none;
   list-style: none;
+  font-family: iransans;
 }
 
 .container {
@@ -21,7 +27,7 @@ body {
 ul {
     display: flex;
     gap: 159px;
-    margin-top: 5px;
+    margin-top: 1rem
 }
 
 a {
